@@ -10,21 +10,28 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"ABOUT",
-		"about/",
+		"company/about/",
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"WORK",
-		"work/",
+		"company/work/",
 		Array(), 
 		Array(), 
 		"" 
 	),
+    Array(
+        "NEWS",
+        "company/news/",
+        Array(),
+        Array(),
+        ""
+    ),
 	Array(
 		"CONTACT",
-		"contacts/",
+		"company/contacts/",
 		Array(), 
 		Array(), 
 		"" 
