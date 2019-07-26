@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f4e0e2d-c1c2-4dae-810c-4de08bba8df5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/news/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/about/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/about/templates/.default/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/contacts/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/contacts/templates/.default/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/feedback/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/feedback/templates/.default/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/reviews/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/reviews/templates/.default/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/team/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/team/templates/.default/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/work/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local/components/custom/work/templates/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.top.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/.top.menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/about/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/company/about/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/contacts/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/company/contacts/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/work/work.php" beforeDir="false" afterPath="$PROJECT_DIR$/company/work/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/custom/articles/templates/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/custom/articles/templates/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/components/custom/clients/templates/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/components/custom/clients/templates/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local/templates/main/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/local/templates/main/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,38 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" selection-start-line="20" selection-end-line="24" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company/work/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/local/components/custom/work/templates/.default/template.php">
+        <entry file="file://$PROJECT_DIR$/private/api/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+            <state relative-caret-position="753">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local/components/custom/work/class.php">
+        <entry file="file://$PROJECT_DIR$/private/result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/send/message.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -103,8 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/local/components/custom/gallery_main/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/php_interface/after_connect_d7.php" />
         <option value="$PROJECT_DIR$/bitrix/php_interface/after_connect.php" />
         <option value="$PROJECT_DIR$/local/components/custom/gallery_main/templates/.default/template.php" />
         <option value="$PROJECT_DIR$/local/components/custom/gallery_main/class.php" />
@@ -145,6 +115,17 @@
         <option value="$PROJECT_DIR$/local/components/custom/work/class.php" />
         <option value="$PROJECT_DIR$/company/work/index.php" />
         <option value="$PROJECT_DIR$/local/components/custom/work/templates/.default/template.php" />
+        <option value="$PROJECT_DIR$/worker/index.php" />
+        <option value="$PROJECT_DIR$/AmoCRM/index.php" />
+        <option value="$PROJECT_DIR$/private/template.php" />
+        <option value="$USER_HOME$/Desktop/Cron/crontab" />
+        <option value="$PROJECT_DIR$/private/result.php" />
+        <option value="$PROJECT_DIR$/autoload/autoload.php" />
+        <option value="$PROJECT_DIR$/private/send/message.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/private/auth.php" />
+        <option value="$PROJECT_DIR$/private/api/auth.php" />
+        <option value="$PROJECT_DIR$/private/index.php" />
       </list>
     </option>
   </component>
@@ -160,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,55 +152,40 @@
             <path>
               <item name="acibus" type="b2602c69:ProjectViewProjectNode" />
               <item name="acibus" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="acibus" type="b2602c69:ProjectViewProjectNode" />
               <item name="acibus" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="acibus" type="b2602c69:ProjectViewProjectNode" />
               <item name="acibus" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acibus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acibus" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acibus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acibus" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+              <item name="send" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nowmedia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trestgbi" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\OSPanel\domains\acibus\private\api" />
       <recent name="C:\Program Files\OSPanel\domains\acibus\local\components\custom\about\templates" />
       <recent name="C:\Program Files\OSPanel\domains\acibus\local\components\custom\about" />
       <recent name="C:\Program Files\OSPanel\domains\acibus\local\components\custom\about\.default\templates" />
       <recent name="C:\Program Files\OSPanel\domains\acibus\local\components\custom\team\templates" />
-      <recent name="C:\Program Files\OSPanel\domains\acibus\local\components\custom\work\templates\.default" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\OSPanel\domains\acibus\local" />
@@ -255,16 +222,31 @@
       <workItem from="1563177884129" duration="19958000" />
       <workItem from="1563261673591" duration="2025000" />
       <workItem from="1563433222976" duration="24735000" />
+      <workItem from="1563459811264" duration="206000" />
+      <workItem from="1564040947038" duration="6488000" />
+      <workItem from="1564048062479" duration="37000" />
+      <workItem from="1564126431495" duration="2828000" />
+      <workItem from="1564129960096" duration="5000" />
+      <workItem from="1564130873984" duration="16719000" />
     </task>
+    <task id="LOCAL-00001" summary="dopilivattsa">
+      <created>1563459969444</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563459969444</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56931000" />
+    <option name="totallyTimeSpent" value="83214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22555012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24327628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,34 +291,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dopilivattsa" />
+    <option name="LAST_COMMIT_MESSAGE" value="dopilivattsa" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local/templates/main/components/bitrix/menu/top_menu/template.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/after_connect_d7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/after_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Articles/Art Of Coding/index.html" />
-    <entry file="file://$PROJECT_DIR$/Articles/Clean Design/index.html" />
-    <entry file="file://$PROJECT_DIR$/Articles/Amazing Support/index.html" />
-    <entry file="file://$PROJECT_DIR$/company/articles/Clean-Design/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="51" selection-start-line="51" selection-end-line="52" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/company/articles/Amazing-Support/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
@@ -518,13 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local/components/custom/work/class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/components/custom/about/class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -536,6 +488,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.top.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -553,10 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.top.menu.php">
+    <entry file="file://$PROJECT_DIR$/local/components/custom/work/class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="374">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -564,6 +523,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/installed.json" />
+    <entry file="file://$PROJECT_DIR$/vendor/dotzero/amocrm/README.md" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/composer/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/../../AMOcrm/send-contact.php" />
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="7" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Cron/crontab">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" lean-forward="true" selection-start-column="75" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/send/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/api/cookie.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/api/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
