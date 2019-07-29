@@ -1,7 +1,5 @@
 <!-- %progdir%\modules\php\%phpdriver%\php-win.exe -c %progdir%\modules\php\%phpdriver%\php.ini -q -f %sitedir%\acibus\private\send\message.php -->
 <?php
-require_once ("private/result.php");
-$myobj = new result(what1, what2, what3);
 $to = "ad@nowmedia.ru";
 $subject = "Просроченные задачи из Amo";
 $headers = "Content-type:text/html; charset = utf-8\r\n";
@@ -47,3 +45,13 @@ $message = <<<CONTENT
 CONTENT;
 
 mail ($to, $subject, $message, $headers); ?>
+
+<? /**foreach ($Response['_embedded']['items'] as $item){
+    $factory [] =  ( $item['text']);
+}
+?><pre><? print_r($factory); ?></pre><?
+foreach ($factory as $value) {
+    if ($value>=$current_date){
+        ?><pre><? print_r($value); ?></pre><?
+    }
+}?> **/

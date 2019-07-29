@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f4e0e2d-c1c2-4dae-810c-4de08bba8df5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/api/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/api/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/api/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/private/api/cookie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/result.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/send/message.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/send/message.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/private/api/auth.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="753">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/private/result.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/private/api/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="702">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -39,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/private/send/message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="685">
+              <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="56" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -62,6 +65,7 @@
       <find>map</find>
       <find>mape</find>
       <find>assets</find>
+      <find>modi</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?=SITE_TEMPLATE_PATH?&gt;</replace>
@@ -75,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bitrix/php_interface/after_connect.php" />
-        <option value="$PROJECT_DIR$/local/components/custom/gallery_main/templates/.default/template.php" />
         <option value="$PROJECT_DIR$/local/components/custom/gallery_main/class.php" />
         <option value="$PROJECT_DIR$/Articles/Art Of Coding.html" />
         <option value="$PROJECT_DIR$/Articles/Amazing Support/index.html" />
@@ -121,11 +123,13 @@
         <option value="$USER_HOME$/Desktop/Cron/crontab" />
         <option value="$PROJECT_DIR$/private/result.php" />
         <option value="$PROJECT_DIR$/autoload/autoload.php" />
-        <option value="$PROJECT_DIR$/private/send/message.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/private/auth.php" />
-        <option value="$PROJECT_DIR$/private/api/auth.php" />
         <option value="$PROJECT_DIR$/private/index.php" />
+        <option value="$PROJECT_DIR$/private/Task.php" />
+        <option value="$PROJECT_DIR$/private/send/message.php" />
+        <option value="$PROJECT_DIR$/private/api/auth.php" />
+        <option value="$PROJECT_DIR$/private/api/request.php" />
       </list>
     </option>
   </component>
@@ -176,7 +180,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trestgbi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nowmedia" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
@@ -227,7 +231,8 @@
       <workItem from="1564048062479" duration="37000" />
       <workItem from="1564126431495" duration="2828000" />
       <workItem from="1564129960096" duration="5000" />
-      <workItem from="1564130873984" duration="16719000" />
+      <workItem from="1564130873984" duration="20435000" />
+      <workItem from="1564389853897" duration="16732000" />
     </task>
     <task id="LOCAL-00001" summary="dopilivattsa">
       <created>1563459969444</created>
@@ -240,13 +245,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83214000" />
+    <option name="totallyTimeSpent" value="103662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24327628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24633251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,20 +301,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="dopilivattsa" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/company/articles/Amazing-Support/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="52" column="65" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/articles/Art-Of-Coding/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="51" selection-start-line="51" selection-end-line="52" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -532,16 +523,8 @@
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php" />
     <entry file="file://$PROJECT_DIR$/vendor/composer/LICENSE" />
     <entry file="file://$PROJECT_DIR$/../../AMOcrm/send-contact.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="7" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json" />
+    <entry file="file://$PROJECT_DIR$/private/template.php" />
     <entry file="file://$USER_HOME$/Desktop/Cron/crontab">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -549,51 +532,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoload/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/send/message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/test.php" />
+    <entry file="file://$PROJECT_DIR$/private/auth.php" />
+    <entry file="file://$PROJECT_DIR$/private/index.php" />
+    <entry file="file://$PROJECT_DIR$/private/result.php" />
     <entry file="file://$PROJECT_DIR$/private/api/cookie.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/result.php">
+    <entry file="file://$PROJECT_DIR$/private/Task.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="70">
+          <caret line="67" column="31" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="31" />
+          <folding>
+            <element signature="e#31#70#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/private/api/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="753">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/send/message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="56" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/api/request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
