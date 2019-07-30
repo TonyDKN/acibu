@@ -1,6 +1,7 @@
 <?php
 require_once "auth.php";
 $current_date = date("d.m.y");
+var_dump($current_date);
 /**
  * задаем массив запроса который обработается json
  */
@@ -8,7 +9,7 @@ $subdomain = 'nowmd';
 /**
  * URL метода
  */
-$link = 'https://' . $subdomain . '.amocrm.ru/api/v2/tasks?filter[date_create][from]=1561939200&filter[date_create][to]=2524608000,[limit_rows][500]';
+$link = 'https://' . $subdomain . '.amocrm.ru/api/v2/tasks?filter[date_create][from]=1564358400&filter[date_create][to]=1561939200,[limit_rows][500]';
 
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -45,14 +46,98 @@ try
     die('Ошибка: ' . $E->getMessage() . PHP_EOL . 'Код ошибки: ' . $E->getCode());
 }
 $Response = json_decode($out, true);
-foreach ($Response['_embedded']['items'] as $item){
-   $factory [] =  $item['created_at'];
-}
-?><pre><? print_r($factory); ?></pre><?
+
+?>
 
 
-foreach ($factory as $value) {
-    if ($value=$current_date){
+<html>
+<head>
+    <title>Просроченные задачи из Amo</title>
+</head>
+<body>
+<h1>Сегодня должны быть сделаны следующие задачи</h1>
 
-    }
-}
+<h2>Илья Макаров</h2>
+<h3>Просрочено:</h3>
+<ul>
+<?
+    foreach ($Response['_embedded']['items'] as $item):
+        $CreateTime = date("d.m.Y", $item['created_at']);
+
+            $current_date_unix = strtotime($current_date);
+            $CreateTime_unix = strtotime($CreateTime);
+            $days = ($current_date_unix - $CreateTime_unix)/(24 * 60 * 60 );?>
+
+                    <? if ($days>0 && $item['created_by'] === 896158):
+                       foreach ($item["_links"] as $links):
+                            ?>
+                            <li><pre><?print_r($item['created_by']);?></pre> (<a href="<?=$links["href"]?>"><?=$links["href"]?></a>) (просрочено на <?=$days?> дней)</li>
+                        <? endforeach;
+                    endif;
+    endforeach;
+ ?>
+            </ul>
+            <h3>На сегодня:</h3>
+            <ul>
+                <?
+                foreach ($Response['_embedded']['items'] as $item):
+                    $CreateTime = date("d.m.Y", $item['created_at']);
+
+                    $current_date_unix = strtotime($current_date);
+                    $CreateTime_unix = strtotime($CreateTime);
+                    $days = ($current_date_unix - $CreateTime_unix)/(24 * 60 * 60 );?>
+
+                    <? if ($days === 0 && $item['created_by'] === 896158):
+                    ?><pre><?print_r($value);?></pre>
+                    <? foreach ($item["_links"] as $links):
+                    ?>
+                    <li><pre><?print_r($item['created_by']);?></pre> (<a href="<?=$links["href"]?>"><?=$links["href"]?></a>) (просрочено на <?=$days?> дней)</li>
+                <? endforeach;
+                endif;
+                endforeach;
+                ?>
+            </ul>
+<h2>Илья Сиркин</h2>
+<h3>Просрочено:</h3>
+<ul>
+    <?
+    foreach ($Response['_embedded']['items'] as $item):
+        $CreateTime = date("d.m.Y", $item['created_at']);
+
+        $current_date_unix = strtotime($current_date);
+        $CreateTime_unix = strtotime($CreateTime);
+        $days = ($current_date_unix - $CreateTime_unix)/(24 * 60 * 60 );?>
+
+        <? if ($days>0 && $item['created_by'] === 2498146):
+        foreach ($item["_links"] as $links):
+            ?>
+            <li><pre><?print_r($item['created_by']);?></pre> (<a href="<?=$links["href"]?>"><?=$links["href"]?></a>) (просрочено на <?=$days?> дней)</li>
+        <? endforeach;
+    endif;
+    endforeach;
+    ?>
+</ul>
+<h3>На сегодня:</h3>
+<ul>
+    <?
+    foreach ($Response['_embedded']['items'] as $item):
+        $CreateTime = date("d.m.Y", $item['created_at']);
+
+        $current_date_unix = strtotime($current_date);
+        $CreateTime_unix = strtotime($CreateTime);
+        $days = ($current_date_unix - $CreateTime_unix)/(24 * 60 * 60 );?>
+
+        <? if ($days === 0 && $item['created_by'] === 2498146):
+        ?><pre><?print_r($value);?></pre>
+        <? foreach ($item["_links"] as $links):
+        ?>
+        <li><pre><?print_r($item['created_by']);?></pre> (<a href="<?=$links["href"]?>"><?=$links["href"]?></a>) (просрочено на <?=$days?> дней)</li>
+    <? endforeach;
+    endif;
+    endforeach;
+    ?>
+</ul>
+
+</body>
+</html>
+
